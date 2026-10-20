@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Phaser - Template</title>
+</head>
+<style>
+    .popup_container{
+        position: absolute;
+
+        /* TODO: complete the popup functionality */
+        /* display: none; */
+        pointer-events: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        align-items: center;
+        justify-content: center;
+    }
+    .popup{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<body>
+    <div id="app">
+        <div id="game-container"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+
+    <div class="popup_container">
+        <div class="popup" id="popup">TEST</div>
+    </div>
+</body>
+</html>
